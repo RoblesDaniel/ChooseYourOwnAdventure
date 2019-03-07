@@ -2,28 +2,28 @@
 
 var game = {
     music: "98_Lost_Mine.mp3",
-    background_image: "intro-bg.jpg",
+    background_image: "https://i.imgflip.com/2li4sn.jpg",
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+        message: "Welcome to the Smash Ultimate Tournament, you are the smash character of your choice and will go through a series of competitors to be an elite Smash player.",
             choices: [
                 {
-                    text: "Enter the cave",
-                    nextLevel: "cave",
+                    text: "Fight Mario",
+                    nextLevel: "mario",
                 },
 
                 {
-                    text: "Keep on moving",
-                    nextLevel: "field",
+                    text: "Fight Luigi",
+                    nextLevel: "luigi",
                 },
             ]
         },
 
-        cave: {
+        luigi: {
             background_image: "fire.gif",
             music: "Final-Fantasy-7-Boss-Battle.mp3",
-            message: "You come across a fire monster or something!",
+            message: "You challenged Luigi and lost!",
             choices: [
                 {
                     text: "Start over",
@@ -32,8 +32,9 @@ var game = {
             ]
         },
 
-        field: {
-            message: "Some adventurer you are...",
+        mario: {
+            background_image: "mario.gif",
+            message: "You challenged Mario and 3 stocked him!",
             choices: [
                 {
                     text: "Start over",
