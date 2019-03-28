@@ -61,7 +61,7 @@ var game = {
                 },
             ]
         },
-        isabelle: {
+        marth: {
             background_image: "fire.gif",
             music: "Final-Fantasy-7-Boss-Battle.mp3",
             message: "Start over because he just spammed Either",
@@ -83,18 +83,48 @@ var game = {
                 },
                 {
                     text: "Fight Mega Man",
-                    nextLevel: "m&m",
+                    nextLevel: "megaman",
                 },
                 {
                     text: "Fight Incineroar",
-                    nextLevel: "roar",
+                    nextLevel: "incineroar",
+                },
+            ]
+        },
+        incineroar: {
+            background_image: "fire.gif",
+            music: "Final-Fantasy-7-Boss-Battle.mp3",
+            message: "With downsmash and super armor, you were obliterated",
+            choices: [
+                {
+                    text: "Start over",
+                    nextLevel: "start",
+                },
+
+            ]
+        },
+        megaman: {
+            background_image: "fire.gif",
+            music: "Final-Fantasy-7-Boss-Battle.mp3",
+            message: "You won because his recovery still sucks",
+            choices: [
+                {
+                    text: "Fight Pac-Man",
+                    nextLevel: "pac",
+                },
+                {
+                    text: "Fight Bowser Junior",
+                    nextLevel: "junior",
+                },
+                {
+                    text: "Fight Ridley",
+                    nextLevel: "ridley",
                 },
             ]
         },
         krool: {
             background_image: "fire.gif",
-            music: "Final-Fantasy-7-Boss-Battle.mp3",
-            message: "With downsmash and super armor, you were obliterated",
+            message: "He got the better of you and got 'revenge'",
             choices: [
                 {
                     text: "Start over",
