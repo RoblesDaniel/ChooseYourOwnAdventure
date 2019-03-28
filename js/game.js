@@ -2,7 +2,7 @@
 
 var game = {
     music: "98_Lost_Mine.mp3",
-    background_image: "https://i.imgflip.com/2li4sn.jpg",
+    background_image: "space.gif",
     levels: {
 
         start: {
@@ -37,11 +37,70 @@ var game = {
             message: "You challenged Mario and 3 stocked him!",
             choices: [
                 {
+                    text: "Fight Marth",
+                    nextLevel: "marth",
+                },
+                {
+                    text: "Fight Isabelle",
+                    nextLevel: "isabelle",
+                },
+                {
+                    text: "Fight Little Mac",
+                    nextLevel: "mac",
+                },
+            ]
+        },
+        isabelle: {
+            background_image: "fire.gif",
+            music: "Final-Fantasy-7-Boss-Battle.mp3",
+            message: "You understimated your openent and lost!",
+            choices: [
+                {
                     text: "Start over",
                     nextLevel: "start",
                 },
             ]
         },
-
+        isabelle: {
+            background_image: "fire.gif",
+            music: "Final-Fantasy-7-Boss-Battle.mp3",
+            message: "Start over because he just spammed Either",
+            choices: [
+                {
+                    text: "Start over",
+                    nextLevel: "start",
+                },
+            ]
+        },
+        mac: {
+            background_image: "fire.gif",
+            music: "Final-Fantasy-7-Boss-Battle.mp3",
+            message: "You won because his recovery still sucks",
+            choices: [
+                {
+                    text: "Fight King K Rool",
+                    nextLevel: "krool",
+                },
+                {
+                    text: "Fight Mega Man",
+                    nextLevel: "m&m",
+                },
+                {
+                    text: "Fight Incineroar",
+                    nextLevel: "roar",
+                },
+            ]
+        },
+        krool: {
+            background_image: "fire.gif",
+            music: "Final-Fantasy-7-Boss-Battle.mp3",
+            message: "With downsmash and super armor, you were obliterated",
+            choices: [
+                {
+                    text: "Start over",
+                    nextLevel: "start",
+                },
+            ]
+        },
     }
 };
