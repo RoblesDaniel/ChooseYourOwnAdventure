@@ -235,7 +235,7 @@ var game = {
         },
         wolf: {
             background_image: "wolf.gif",
-In            music: "wolf.mp3",
+            music: "wolf.mp3",
             message: "Wolf mains are serious about this character and wil always play him to maximze efficiency... just like fox mains.",
             choices: [
                 {
