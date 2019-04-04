@@ -398,7 +398,7 @@ var game = {
             ]
         },
         waluigi: {
-            background_image: "waluigi.jpg",
+            background_image: "waluigi.gif",
             music: "lifelight.mp3",
             message: "",
             choices: [
